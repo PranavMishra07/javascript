@@ -1,19 +1,13 @@
+
+let head = document.querySelector("#head")
 function toggle() {
-    // let head = document.querySelector("#head")
-    // head.classList.toggle('head')
-    // head.innerHTML = "Pranav"
-    // let h1 = document.querySelector("#butt")
-    // h1.innerHTML = "change"
-    let but = document.querySelector("#but")
+    head.innerHTML = "pranav"
+    let but = document.querySelector("#butt")
+    but.classList.toggle('#head')
 
-    but.classList.toggle('toggle')
-    // let butt = document.querySelector("#butt")
-    // butt.classList.toggle('butt')
-    // butt.innerHTML = "jhghdf"
-    but.innerHTML = "change"
-    let head = document.querySelector("#head")
-    head.innerHTML = "Pramav"
-
-
-
+}
+let h1 = document.querySelector("#but")
+function change() {
+    h1.classList.toggle('but')
+    h1.innerHTML = "change"
 }
