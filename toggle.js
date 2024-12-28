@@ -1,9 +1,19 @@
 
-let head = document.querySelector("#head")
+let tog = false
 function toggle() {
-    head.innerHTML = "pranav"
-    let but = document.querySelector("#butt")
-    but.classList.toggle('#head')
+    let h = document.querySelector("#head")
+    let b = document.querySelector("#but")
+    tog = !tog
+    if (tog) {
+        h.innerHTML = "cybrom"
+        btn.innerHTML = "Show"
+    }
+    else {
+        h.innerHTML = ""
+        btn.innerHTML = "show"
+    }
+
+
 
 }
 
