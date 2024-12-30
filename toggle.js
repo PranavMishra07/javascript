@@ -1,10 +1,9 @@
-
-let tog = false
+let status = false
 function toggle() {
     let h = document.querySelector("#head")
-    let b = document.querySelector("#but")
-    tog = !tog
-    if (tog) {
+    let btn = document.querySelector("#but")
+    status = !status
+    if (status) {
         h.innerHTML = "cybrom"
         btn.innerHTML = "Show"
     }
