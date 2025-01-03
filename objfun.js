@@ -41,7 +41,7 @@ let obj2 = {
     demo: function () {   //function
         alert("inside Object")
     },
-    friend: ["harsh", "aman", "prabal", "himanshu"],  //araay
+    friend: ["harsh", "aman", "prabal", "himanshu"],  //array
     fun: function () {
         console.log(this.name);
 
@@ -50,4 +50,27 @@ let obj2 = {
 obj2.demo()
 obj2.fun()
 console.log(obj2.friend[0])
+
+let ob1 = {
+    name: "vivek",
+    age: 9
+}
+let ob2 = {
+    contact: 122
+}
+let ob3 = { ...ob1, ...ob2 }
+console.log(ob3);
+
+let val = Object.values(ob3)   //print Values of the object in array Format
+console.log(val);
+let k = Object.keys(ob3)        //print keys of the object in array Format
+console.log(k);
+
+delete ob3.age   //for deleting any key and value from object
+console.log(ob3);
+
+
+
+
+
 
