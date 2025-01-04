@@ -10,6 +10,12 @@ let employee = [
         emp_designation: "Technical Trainer"
     }
 ]
+let obj1 = {
+    name: "Shashank",
+    Age: 21
+}
+console.log(employee.push(obj1));
+
 console.log(employee);
 console.log(employee[0]);
 console.log(employee[1]);
@@ -25,7 +31,7 @@ console.log(employee.unshift(
     }
 ));
 console.log(employee.slice(0, 2));
-console.log(employee.splice(1, 0));
+console.log(employee.splice(0, 1));
 
 
 
