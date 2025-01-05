@@ -16,6 +16,14 @@ let obj1 = {
 }
 console.log(employee.push(obj1));
 
+let obj2 = {
+    name: "Aman",
+    Degree: "BSC",
+    Age: 21
+
+}
+console.log(employee.push(obj2))
+
 console.log(employee);
 console.log(employee[0]);
 console.log(employee[1]);
