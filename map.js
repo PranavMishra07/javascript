@@ -6,7 +6,7 @@ let neu = ar.map((t) => { return t })
 // let neu = ar.map((t) => { return t > 2 })
 
 
-//only on array   to fetch elements of array
+//only on array   to fetch elements of array  and when we give map a condition it returns boolean result
 //
 console.log(neu);
 let arr1 = [
