@@ -1,18 +1,14 @@
+// The map() function creates a new array populated with the results of calling a provided function on every element in the calling array. It does not mutate the original array; instead, it returns a new array with the transformed elements.
 let ar = [1, 2, 3, 4, 5, 6, 7]
-// let neu = ar.map((t) => { return t })
+let neu = ar.map((t) => { return t })
 // let neu = ar.map((t) => { return t + 2 })
 // let neu = ar.map((t) => { return t * 2 })
-let neu = ar.map((t) => { return t > 2 })
+// let neu = ar.map((t) => { return t > 2 })
 
 
 //only on array   to fetch elements of array
+//
 console.log(neu);
-
-
-let nar = ar.filter((f) => { return f % 2 == 0 })
-console.log(nar);
-
-
 let arr1 = [
     {
         id: 1,
@@ -31,10 +27,9 @@ let arr1 = [
     }
 
 ]
-let st = arr1.map((s) => { return s.id })
+let st = arr1.map((s) => { return s.Name })
 console.log(st);
 
-let st_filter = arr1.filter((f) => { return f.Age > 20 })
-console.log(st_filter);
+
 
 
