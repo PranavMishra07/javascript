@@ -27,9 +27,10 @@ let student = [
 
 
 ]
-let finaldata = student.map((e) => `
+//to add table data in the table   use ${} to access data from the above array Object
+let finaldata = student.map((e) => `    // e is the object of arrow Function 
 <tr>
-<td>${e.Roll}</td>
+<td>${e.Roll}</td>   
 <td>${e.name}</td>
 <td>${e.age}</td>
 <td>${e.city}</td>
@@ -38,5 +39,5 @@ let finaldata = student.map((e) => `
 
 
 
-`).join("")
-document.querySelector("#displaydata").innerHTML = finaldata
+`).join("")     // To remove ,(qoama) or replace it  (because of Object there is qouma occure in the table)
+document.querySelector("#displaydata").innerHTML = finaldata  //add data to Html Page 
