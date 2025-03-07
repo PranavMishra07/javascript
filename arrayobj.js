@@ -41,8 +41,8 @@ console.log(employee.unshift(
         emp_designation: "develapor"
     }
 ));
-console.log(employee.slice(0, 2));
-console.log(employee.splice(0, 0));
+console.log(employee.slice(0, 3));
+console.log(employee.splice(0, 3));
 foo(); // "Hello!"
 function foo() {
     console.log("Hello!");

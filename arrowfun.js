@@ -8,9 +8,12 @@ let fun = () => {
     for (let i = 1; i <= 10; i++) {
         console.log(n * i)
 
+
     }
 }
 fun()
+// ;
+
 let f = 5
 let fac = 1
 let fact = () => {

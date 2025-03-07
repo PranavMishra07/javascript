@@ -28,7 +28,8 @@ let student = [
 
 ]
 //to add table data in the table   use ${} to access data from the above array Object
-let finaldata = student.map((e) => `    // e is the object of arrow Function 
+// // e is the object of arrow Function 
+let finaldata = student.map((e) => `    
 <tr>
 <td>${e.Roll}</td>   
 <td>${e.name}</td>

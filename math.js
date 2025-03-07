@@ -13,7 +13,7 @@ const number = () => {
 
 }
 // function one() {
-// h1.innerHTML = Math.trunc(Math.random() * 15 + 1)
+//     h1.innerHTML = Math.trunc(Math.random() * 15 + 1)
 // }
 // function two() {
 //     h2.innerHTML = Math.trunc(Math.random() * 15 + 1)
