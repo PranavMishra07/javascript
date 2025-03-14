@@ -1,5 +1,5 @@
-let x = null;
-console.log(x);//null
+// let x = null;
+// console.log(x);//null
 
 let y
 console.log(y);//undefined
@@ -25,7 +25,24 @@ console.log(activeuser);//null
 
 
 function calculate(a, b) {
-    debugger;
+    debugger; //execution stops here
     return a + b
 }
 calculate(5, 10)
+
+var x = 10
+debugger;
+x = x + 1
+debugger
+console.log(x)
+
+
+console.log(5 == "5"); // true (string "5" is converted to number 5)
+console.log(0 == false); // true (false is converted to 0)
+console.log(null == undefined); // true (special case)
+
+
+console.log(5 === "5"); // false (different types: number vs. string)
+console.log(0 === false); // false (number vs. boolean)
+console.log(null === undefined); // false (different types)
+
