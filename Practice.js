@@ -24,3 +24,8 @@ console.log(activeuser);//null
 
 
 
+function calculate(a, b) {
+    debugger;
+    return a + b
+}
+calculate(5, 10)
