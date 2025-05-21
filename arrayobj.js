@@ -15,7 +15,9 @@ let obj1 = {
     Age: 21,
     designation: "developer"
 }
-console.log(employee.push(obj1));
+e=employee.push(obj1)
+console.log(employee);
+
 
 let obj2 = {
     name: "Aman",
@@ -26,8 +28,8 @@ let obj2 = {
 console.log(employee.push(obj2))
 
 console.log(employee);
-// console.log(employee[0]);
-// console.log(employee[1]);
+console.log(employee[0]);
+console.log(employee[1]);
 console.log(employee.push({
     name: "Pranav",
     emp_id: 23,
@@ -42,15 +44,20 @@ console.log(employee.unshift(
     }
 ));
 console.log(employee.slice(0, 3));
-console.log(employee.splice(0, 3));
-foo(); // "Hello!"
-function foo() {
-    console.log("Hello!");
-}
+console.log(employee);
 
 
-console.log(a); // ReferenceError: Cannot access 'a' before initialization
-let a = 5;
+console.log(employee.splice(1, 3));
+console.log(employee);
+
+// foo(); // "Hello!"
+// function foo() {
+//     console.log("Hello!");
+// }
+
+
+// console.log(a); // ReferenceError: Cannot access 'a' before initialization
+// let a = 5;
 
 
 

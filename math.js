@@ -1,7 +1,7 @@
-// let num = Math.trunc(Math.random() * 15 + 1)  // trunc for integer value
+let num = Math.trunc(Math.random() * 15 +1)  // trunc for integer value
 // // *15 number
 // // +1 for not
-// console.log(num);
+console.log(num);
 const number = () => {
     let h1 = document.querySelector("#h1")
     let h2 = document.querySelector("#h2")
