@@ -20,6 +20,7 @@ let user;
 console.log(user); //undefined
 let activeuser = null
 console.log(activeuser);//null
+console.log(activeuser);//null
 
 
 
