@@ -12,7 +12,7 @@ let employee = [
 ]
 let obj1 = {
     name: "Shashank",
-    Age: 21,
+    Age: 22,
     designation: "developer"
 }
 e=employee.push(obj1)
