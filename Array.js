@@ -25,5 +25,6 @@ let pr = ["nsmr", 'jkn', 7]
 console.log(pr)
 pr.shift()
 console.log(pr)
+console.log(pr)
 pr.unshift("jkn")
 console.log(pr)
