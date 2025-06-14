@@ -30,6 +30,7 @@ console.log(employee.push(obj2))
 console.log(employee);
 console.log(employee[0]);
 console.log(employee[1]);
+console.log(employee[2]);
 console.log(employee.push({
     name: "Pranav",
     emp_id: 23,
