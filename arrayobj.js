@@ -50,6 +50,7 @@ console.log(employee);
 
 console.log(employee.splice(1, 3));
 console.log(employee);
+console.log(employee);
 
 // foo(); // "Hello!"
 // function foo() {
