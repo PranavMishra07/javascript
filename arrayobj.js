@@ -41,7 +41,7 @@ console.log(employee.unshift(
     {
         name: "aryan",
         emp_id: 23,
-        emp_designation: "develapor"
+        emp_designation: "software develapor"
     }
 ));
 console.log(employee.slice(0, 3));
