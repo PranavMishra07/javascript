@@ -9,3 +9,7 @@ let fname = 'Ayush '
 let lname = "Shrivastava"
 let name = fname.concat(lname)   //for concatinate string
 console.log(name);  
+let fname = 'Pranav'
+let lname = "Mishra"
+let name = fname.concat(lname)   //for concatinate string
+console.log(name)
