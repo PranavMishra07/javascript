@@ -14,6 +14,7 @@ function submit(){
     for(i=0;i<=input;i++){
         if(input%i==0){
             document.writeln(i)
+            document.writeln(i)
         }
     }
 }
