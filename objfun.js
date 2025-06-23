@@ -33,6 +33,7 @@ let emp = {
 
 }
 console.log(emp.emp_account);
+console.log(emp.emp_account)
 
 console.log(emp.emp_account.emp_acbalance);
 
