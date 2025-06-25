@@ -53,6 +53,7 @@ obj2.demo()
 obj2.fun()
 console.log(obj2.friend[0])
 console.log(obj2.friend[0])
+console.log(obj2.friend[0])
 
 let ob1 = {
     name: "vivek",
