@@ -36,6 +36,7 @@ debugger;
 x = x + 1
 debugger
 console.log(x)
+console.log(x)
 
 
 console.log(5 == "5"); // true (string "5" is converted to number 5)
