@@ -44,8 +44,8 @@ console.log(0 == false); // true (false is converted to 0)
 console.log(null == undefined); // true (special case)
 
 
-console.log(5 === "5");
-console.log(null === "0");// false (different types: number vs. string)
+console.log(5 === "5");// false (different types: number vs. string)
+console.log(null === "0");
 console.log(0 === false); // false (number vs. boolean)
 console.log(null === undefined); // false (different types)
 
