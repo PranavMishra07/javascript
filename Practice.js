@@ -1,6 +1,7 @@
 // let x = null;
 // console.log(x);//null
-
+let arrow = () => { return "name" }
+console.log(arrow());
 let y
 console.log(y);//undefined
 
