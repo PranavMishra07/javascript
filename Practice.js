@@ -49,3 +49,11 @@ console.log(null === "0");
 console.log(0 === false); // false (number vs. boolean)
 console.log(null === undefined); // false (different types)
 
+let arr = [10,20,6,]
+// push function main elements array main last mai add ho jayenge
+arr.push("pra", 90)
+console.log(arr)
+//pop function last se element  runtime par delete karta hai
+arr.pop("90")
+console.log(arr)
+
