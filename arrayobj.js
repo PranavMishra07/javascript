@@ -37,6 +37,7 @@ console.log(employee.push({
     emp_designation: "develapor"
 }));
 console.log(employee.pop())
+console.log(employee.pop())
 console.log(employee.unshift(
     {
         name: "aryan",
