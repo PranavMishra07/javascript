@@ -38,6 +38,7 @@ console.log(employee.push({
 }));
 console.log(employee.pop())
 console.log(employee.pop())
+console.log(employee.pop())
 console.log(employee.unshift(
     {
         name: "aryan",
