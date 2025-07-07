@@ -9,7 +9,7 @@ function toggle() {
     }
     else {
         h.innerHTML = ""
-        btn.innerHTML = "show"
+        btn.innerHTML = "Show"
     }
 
 
