@@ -1,5 +1,5 @@
 // The filter() function creates a new array with all elements that pass the test implemented by the provided function. It removes elements that don't satisfy the condition and returns a new array with only the elements that do.
-let ar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let ar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12]
 console.log(ar);
 
 
